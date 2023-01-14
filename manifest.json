@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "Booru Img Enhancer",
+    "author": "Enenra",
+    "version": "1.0",
+  
+    "description": "Improves the booru image boards by making the images feet the screen size and by making the random page and the tag search more easily acessible.",
+  
+    "icons": {
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.booru.org/*"],
+        "js": ["script.js"]
+      }
+    ]
+  
+  }
+  
